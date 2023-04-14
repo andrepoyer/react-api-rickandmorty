@@ -1,7 +1,6 @@
 import './App.css';
 import axios from 'axios';
 import rickImage from './rick.png'
-import wallpaperImage from './wallpaper.jpg'
 import './custom.css'
 import { useState, useEffect } from 'react';
 
