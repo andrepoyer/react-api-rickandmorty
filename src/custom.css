@@ -1,0 +1,148 @@
+body {
+    font-family: 'Creepster';
+    margin: 0;
+}
+
+.suggestions {
+    justify-content: center;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-right: 25px;
+    align-items: center;
+}
+
+.suggestions:hover {
+    cursor: pointer;
+    background-color: rgba(190, 235, 190, 0.7);
+}
+
+.modal-card {
+    display: none;
+}
+
+.active {
+    display: flex!important;
+    justify-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #97ce4c;
+    background-clip: border-box;
+    border: 0.5px solid rgba(0, 0, 0, 0.329);
+    border-radius: 0.25rem;
+    max-width: fit-content;
+}
+
+.active img {
+    max-width: 30vw;
+    padding: 20px;
+}
+
+.card-body{
+    max-width: 40vw;
+    flex-basis: right;
+}
+
+.modal-card-row {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 35px;
+    color: #44281d;
+}
+
+@import url('https://rsms.me/inter/inter.css');
+
+:root {
+  --color-light: white;
+  --color-dark: #212121;
+  --color-signal: #fab700;
+  
+  --color-background: var(--color-light);
+  --color-text: var(--color-dark);
+  --color-accent: var(--color-signal);
+  
+  --size-bezel: .5rem;
+  --size-radius: 4px;
+  
+  line-height: 1.4;
+  
+  font-family: 'Inter', sans-serif;
+  font-size: calc(.6rem + .4vw);
+  color: var(--color-text);
+  background: var(--color-background);
+  font-weight: 300;
+  padding: 0 calc(var(--size-bezel) * 3);
+}
+
+h2 {
+  font-weight: 900;
+}
+
+.card {
+  background: var(--color-background);
+  padding: calc(4 * var(--size-bezel));
+  margin-top: calc(4 * var(--size-bezel));
+  border-radius: var(--size-radius);
+  border: 3px solid var(--color-shadow, currentColor);
+  box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
+}
+
+
+.l-design-widht {
+  max-width: 40rem;
+  padding: 1rem;
+}
+
+.input {
+  position: relative;
+}
+
+.input__field {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border: 3px solid currentColor;
+    padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+    color: currentColor;
+    background: transparent;
+    border-radius: var(--size-radius); 
+}
+
+
+.button-group {
+  margin-top: calc(var(--size-bezel) * 2.5);
+}
+
+button {
+  color: currentColor;
+  padding: var(--size-bezel) calc(var(--size-bezel) * 2);
+  background: var(--color-accent);
+  border: none;
+  border-radius: var(--size-radius);
+  font-weight: 900;
+}
+
+button + button {
+  margin-left: calc(var(--size-bezel) * 2);
+}
+
+.icon {
+  display: inline-block;
+  width: 1em; height: 1em;
+  margin-right: .5em;
+}
+
+.hidden {
+  display: none;
+}
