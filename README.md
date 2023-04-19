@@ -6,10 +6,6 @@ The app uses Axios to make API requests and fetches data from the "https://ricka
 
 Overall, this app provides a simple and intuitive way for users to search for and learn more about their favorite characters from the "Rick and Morty" TV series.
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
