@@ -1,3 +1,11 @@
+#Introduction
+
+This is a React application that allows users to search for characters from the animated TV series, "Rick and Morty". The app fetches data from the Rick and Morty API and displays a search bar on the screen. As the user types into the search bar, the app filters through the data and displays a list of suggestions for the user to choose from. When the user clicks on one of the suggestions, the app displays detailed information about the character, including their name, image, origin, species, gender, and status.
+
+The app uses Axios to make API requests and fetches data from the "https://rickandmortyapi.com/api/character" endpoint. It also uses React hooks like useState and useEffect to manage state and lifecycle events. Additionally, the app uses CSS to style the UI elements and display the data in an organized manner.
+
+Overall, this app provides a simple and intuitive way for users to search for and learn more about their favorite characters from the "Rick and Morty" TV series.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
