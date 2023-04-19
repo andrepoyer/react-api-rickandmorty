@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 This is a React application that allows users to search for characters from the animated TV series, "Rick and Morty". The app fetches data from the Rick and Morty API and displays a search bar on the screen. As the user types into the search bar, the app filters through the data and displays a list of suggestions for the user to choose from. When the user clicks on one of the suggestions, the app displays detailed information about the character, including their name, image, origin, species, gender, and status.
 
